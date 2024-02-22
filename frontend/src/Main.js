@@ -1,6 +1,6 @@
 import React from 'react'
 import Navigation from './Pages/Navigation'
-import Timeline from './Pages/Timeline/Timeline'
+import Timeline from './Pages/Screens/Timeline'
 
 
 function Main() {

@@ -3,7 +3,7 @@ import {Avatar} from '@mui/material'
 
 function Navigation() {
   return (
-    <div className='flex  justify-between bg-gray-200 h-10 w-full '> 
+    <div className='flex sticky top-0 justify-between bg-gray-200 h-10 w-full '> 
 
     hi
     
