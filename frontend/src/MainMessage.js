@@ -1,18 +1,18 @@
 import React from 'react'
 import Navigation from './Pages/Navigation'
-import Timeline from './Pages/Screens/Timeline'
 import SideBar from './Pages/SideBar'
+import Message from './Pages/Screens/Message'
 
-function Main() {
+function MainMessage() {
   return (
     <div >
       <Navigation/>
       <SideBar/>
-      <Timeline/>
+      <Message/>
 
       
       </div>
   )
 }
 
-export default Main
+export default MainMessage

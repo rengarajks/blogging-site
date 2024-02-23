@@ -1,18 +1,18 @@
 import React from 'react'
 import Navigation from './Pages/Navigation'
-import Timeline from './Pages/Screens/Timeline'
 import SideBar from './Pages/SideBar'
+import Interest from './Pages/Screens/Interest'
 
-function Main() {
+function MainInterest() {
   return (
     <div >
       <Navigation/>
       <SideBar/>
-      <Timeline/>
+      <Interest/>
 
       
       </div>
   )
 }
 
-export default Main
+export default MainInterest

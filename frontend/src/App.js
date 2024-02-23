@@ -1,26 +1,24 @@
-
 import './App.css';
 import Main from './Main';
 import {BrowserRouter,Route,Routes} from   'react-router-dom'
-import Timeline from './Pages/Screens/Timeline';
-import InterestTimeline from './Pages/Screens/InterestTimeline';
-import Home from './Pages/SideButtonsPages/Home';
+import MainInterest from './MainInterest';
+import MainMessage from './MainMessage';
+import MainNotification from './MainNotification';
+import MainProfile from './MainProfile';
+
 
 function App() {
   return (
 
     <BrowserRouter>
 
-<div className="App">
-      
-      <Main/>
-      
-
-    </div>
 
     <Routes>
-      <Route exact path='/' Component={Home} />
-      <Route path='interest' Component={InterestTimeline} />
+      <Route exact path='/' Component={Main} />
+      <Route path='/interest' Component={MainInterest} />
+      <Route path='/message' Component={MainMessage} />
+      <Route path='/notification' Component={MainNotification} />
+      <Route path='/profile' Component={MainProfile} />
     </Routes>
     
     </BrowserRouter>

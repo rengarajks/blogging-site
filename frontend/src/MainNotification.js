@@ -1,18 +1,18 @@
 import React from 'react'
 import Navigation from './Pages/Navigation'
-import Timeline from './Pages/Screens/Timeline'
 import SideBar from './Pages/SideBar'
+import Notification from './Pages/Screens/Notification'
 
-function Main() {
+function MainNotification() {
   return (
     <div >
       <Navigation/>
       <SideBar/>
-      <Timeline/>
+      <Notification/>
 
       
       </div>
   )
 }
 
-export default Main
+export default MainNotification

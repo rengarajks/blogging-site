@@ -7,7 +7,7 @@ import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined
 
 export default function SideBar() {
   return (
-    <div className='fixed left-0 top-0  ml-20 '>
+    <div className='fixed left-0 top-0  ml-40 '>
 
 
 <div className='flex items-center'> 
