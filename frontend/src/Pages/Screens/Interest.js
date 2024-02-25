@@ -1,8 +1,8 @@
-import React from 'react';
-
+import React, { useState } from 'react';
 
 
 function Interest() {
+
   return (
     <div className='mr-12'> 
     
@@ -12,6 +12,9 @@ function Interest() {
 
         <div className='ml-60 p-5 border-black-100 border-r-2 border-l-2 w-full h-full'> 
     Interest
+
+   
+
         </div>
 
         <div className=' w-2/5'>
